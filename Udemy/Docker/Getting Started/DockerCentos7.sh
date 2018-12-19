@@ -17,6 +17,7 @@ firewall-cmd --reload
 
 #Habilitar ROOT FTP
 /etc/vsftpd/ftpusers
+/etc/vsftpd/user_list #(userlist_enable=YES)
 systemctl restart vsftpd
 setenforce permissive #Es lo mismo que: setenforce 0. Para regresar: setenforce 1
 
