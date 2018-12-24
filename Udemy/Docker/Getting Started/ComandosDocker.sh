@@ -24,5 +24,3 @@ docker inspect stoic_bose
 
 #Docker Run
 
-#####
-## Ya no pide credenciales
